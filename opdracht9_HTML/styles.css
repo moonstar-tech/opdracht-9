@@ -1,0 +1,116 @@
+body {
+    color: rgb(193, 119, 253);
+
+    font-family:pacifico,cursive;
+    font-size:25px;
+    margin:20px;
+
+    padding: 25px;
+}
+
+h1 {
+    background-color: rgb(192, 188, 255);
+}
+
+.black-border {
+    border: 5px solid black;
+}
+#green-background {
+    background-color: rgb(202, 241, 232);
+}
+main {
+    color:black;
+    margin: 20px;
+}
+.para1 { 
+    color:rgb(193, 119, 253);
+}
+.center-title { 
+    margin:0 auto;
+    width: 800px;
+
+}
+body {
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(193, 119, 253);
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: rgb(193, 119, 253);
+}
+
+ul.topnav li a.active {
+    background-color: #333;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+body { background-color: rgb(247, 241, 241); }
+
+@media (min-width: 1024px) {
+        body {
+                background-color: rgb(246, 246, 250)
+        }
+
+}
+
+body { color: rgb(15, 86, 104); }
+
+@media (min-width: 1024px) {
+        body {
+                color: rgb(4, 4, 247)
+        }
+
+}
+
+main { color: rgb(7, 7, 7); }
+
+@media (min-width: 1024px) {
+        main {
+                color: rgb(4, 4, 247)
+        }
+ }
+
+@media (min-width: 800px) {
+    body{
+        font-size: 1.8rem;
+        line-height: 2.0;
+
+    }
+}
+
+
+
+
+
+
+
+
